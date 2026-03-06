@@ -1,0 +1,40 @@
+Module: Internet of Things
+Project: Adaptive Study Environment Controller ASEC
+Student Name: Kolin Thazhathupuram
+Email: s00256832@atu.ie
+Project Partner: Mykhailo Redkin
+Submission Date: 6 March 2026
+
+My contributions included helping develop the project concept, assisting with the Arduino code, and preparing the presentation
+used during the demonstration.
+
+Although having many ideas and most discarded due to unfeasibility we ended up with the ASEC one since my
+project partner said it was the one most worth pursuing due to it's practicality and simplicity.
+Personally for me the idea was influenced by my problem of losing focus while studying due to distractions such as social 
+media (in my case instagram reels), noise, and interruptions. This led to the concept of building a device that could 
+monitor environmental conditions and provide feedback to help maintain concentration during study sessions.
+
+The concept was discussed and refined with my project partner Michael, and the final design focused on using sensors 
+connected to an Arduino to monitor the study environment.
+
+Technical Contributions
+
+- Assisting with the Arduino code (only the day that my Project partner didn't show up to class, didn't touch the code since)
+used to read and process sensor data although used ChatGPT as a support tool to help structure parts of the code and write it
+since I'm not the best with the Arduino syntax.
+- Contributing to the overall concept and system design
+-Creating the presentation slides for the project demonstration
+
+The project provided practical experience with Arduino programming and sensor integration. 
+It involved learning how environmental data can be collected from sensors and processed into useful information.
+It also provided experience with reading data from multiple sensors, processing sensor inputs to generate a focus score,
+displaying system information on an OLED display and using external tools to assist with coding and debugging.
+
+Reflection
+
+The project taught me that arduino devices can be used to tackle real-world problems such as distractions and lack of focus
+by keeping environmental factors such as noise, lighting, and interruptions in control.
+If the project were developed further, additional features could include mobile app connectivity, cloud data storage, and 
+long-term tracking of study conditions, allowing users to better understand and improve their study habits over time.
+To finish it off I think that I should probably limit my usage of Artifical Intelligence next time as I heavily depended on
+it during this project.
