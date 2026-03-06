@@ -1,10 +1,66 @@
-Project Title : 
-Distraction Manager
+Project Title : Distraction Manager/ASEC Adaptive Study Environment Controller
 
-Your name(s) & email addresses :
-Kolin Thazhathupuram & Mykhailo Redkin
-s00256832@atu.ie  &  S00286090@atu.ie
+Your name(s) & email addresses : Kolin Thazhathupuram & Mykhailo Redkin 
+                                 s00256832@atu.ie  &  S00286090@atu.ie
 
-Links to:  
-Trello Page 
-GitHub Team Page 
+Trello Page : https://trello.com/invite/b/699098b33b7f59e262afe0d7/ATTIa93453b857802dfb0f9ae1a0cfa8bdeeEDC62B61/iot-focus-asec
+
+GitHub Team Page : ----------
+
+Data Gathered : https://www.enabot.com/products/ebo-air-2s-familybot
+More so used ChatGPT to gather data 
+and also to choose which of our ideas was more feasible, 
+unfortunately most of them were not feasible since I was thinking without a budget or limits so we decided to keep it simple.
+
+Problem we set out to solve : --------------------------------------------------------------------------------
+
+Students today face increasing difficulty maintaining focus while studying due to social media addiction 
+and environmental distractions. Constant notifications, background noise, and interruptions in the study 
+environment reduce productivity and make it harder for students to concentrate effectively.
+
+These distractions lead to:
+- Reduced study efficiency
+- Shorter attention spans
+- Lower productivity during study sessions
+- Difficulty maintaining a consistent study environment
+
+Our goal was to create a system that helps students maintain a distraction-free and focused study environment 
+by monitoring and responding to environmental factors that affect concentration.
+
+
+Project Solution : --------------------------------------------------------------------------------
+
+We devised the Adaptive Study Environment Controller, a smart system designed to monitor and improve study/focus conditions.
+The system uses an Arduino-based platform connected to multiple sensors that detect environmental conditions affecting focus.
+Sensors Used/Project requirements :
+- Light Sensor : monitors brightness and sudden changes in lighting
+- Sound Sensor : detects noise levels that may disrupt concentration
+- Temperature Sensor : monitors room comfort levels
+- PIR Motion Sensor : detects movement or interruptions in the study area (we used one from RaspBerry PI and it turned out to be defective)
+Data Processing
+All sensor data is processed by the Arduino, which uses a focus score logic system to evaluate whether the environment is suitable
+for studying.
+The OLED display is made up of :
+- Focus score
+- Different display modes controlled by a button
+
+Potential plans for the future :
+The system could evolve into an AI-powered study companion robot, inspired by smart companion devices, with features such as:
+- Monitoring and displaying study environment conditions
+- Movement capabilities in future versions
+- Connectivity to a mobile app or cloud-based IoT platform for remote monitoring and analytics
+
+Challenges we faced :
+During development, we encountered hardware issues with the PIR motion sensor, which did not respond when connected to the Arduino. 
+After troubleshooting for about an hour, we determined that the sensor was likely faulty and planned to replace it with a new component.
+
+Potential Future Challenges
+As the system evolves into a connected IoT platform, future challenges may include:
+- Software maintenance and updates
+- Cybersecurity risks and protection against attacks
+- Ensuring secure communication between devices and cloud systems
+
+Testing :
+we asked our friend to try it out and see how he felt about it.
+
+Security Analysis : 
