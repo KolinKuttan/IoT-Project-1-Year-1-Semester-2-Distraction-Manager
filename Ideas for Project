@@ -1,0 +1,126 @@
+My Arduino Project Ideas (all my ideas came from reflecting on them and only used ChaGPT to give structure and to rewrite this neater)
+1. Movement Control System
+
+An Arduino program that monitors a person’s movement using sensors and provides feedback with coloured lights and sound.
+
+Green light: The person is staying still, so no message is played.
+
+Red light: Movement is detected, and the system tells the person to stop moving.
+
+Blue light: The system detects too little movement and instructs the person to move more.
+
+This system could be used for training exercises that require controlled movement or stillness.
+
+2. Skill Training Assistant
+
+An Arduino-based training system that helps users learn physical skills by analysing their movement and posture.
+
+Sensors monitor the user’s form and flexibility.
+
+The system gives audio feedback with different sounds depending on performance.
+
+It guides the user through stages of learning a skill (for example, exercises leading up to performing a backflip).
+
+Progress is tracked with a scoring system, and the device congratulates users when they reach new milestones.
+
+The program could be updated over time with new skills and training programs.
+
+3. Movement Boundary Trainer
+
+A system that tracks whether a person stays within a defined training area.
+
+Sensors detect when a foot steps outside a marked zone.
+
+If the user leaves the zone, the movement does not count toward the exercise.
+
+The goal is to help users learn proper form and positioning during training.
+
+4. Stress Detection and Relaxation Assistant
+
+An Arduino device that monitors a person's stress level using sensors such as heart rate or skin conductivity.
+
+Depending on the detected stress level, the system suggests ways to relax, such as:
+
+Taking a walk outdoors
+
+Listening to calming music
+
+Eating or drinking something relaxing
+
+The device could also play different songs or sounds to help reduce stress.
+
+5. Automatic Training Timer
+
+A timing system that automatically records performance during training.
+
+A sensor detects when a person crosses a start line and starts the timer.
+
+When the line is crossed again, the timer stops automatically.
+
+Green light: A new personal record is achieved.
+
+Red flashing light: The new time is faster than the previous attempt but not a record.
+
+This makes training sessions more engaging and competitive.
+
+6. Nose-Breathing Reminder
+
+A wearable Arduino device designed to encourage nose breathing instead of mouth breathing.
+
+Sensors detect when the user opens their mouth.
+
+If mouth breathing occurs, the device sends a reminder signal (sound or vibration).
+
+The goal is to reinforce healthy breathing habits.
+
+7. Energy Drink and Blood Pressure Tracker
+
+An Arduino system that measures how different energy drinks affect blood pressure.
+
+The device records blood pressure after consuming different drinks.
+
+It keeps track of which drink gives the user better energy with lower blood pressure.
+
+Based on the data, the system could recommend the most suitable caffeinated drink.
+
+8. Emotion Regulation Device
+
+A device that detects signs of anger or emotional stress.
+
+When the system detects an angry mood, it responds by:
+
+Playing calming music (such as a lullaby)
+
+Sending gentle vibration alerts to encourage the user to calm down
+
+The goal is to help users regain emotional control.
+
+9. Facial Symmetry and Habit Correction System
+
+A system that analyses facial symmetry using sensors or a camera.
+
+It tracks habits that may affect facial balance, such as sleeping position or chewing patterns.
+
+The device suggests:
+
+Which side to sleep on
+
+Which side of the jaw to chew with
+
+Over time, it could expand to help correct other posture or habit-related issues.
+
+10. Adjustable Smart Tint Glasses
+
+Smart glasses with a tint level that can be adjusted manually.
+
+Sliding your fingers across the frame changes the darkness of the lenses.
+
+This allows quick adjustment depending on lighting conditions.
+
+11. Phone Usage Reminder
+
+An Arduino wearable device that helps reduce unnecessary phone use.
+
+When the system detects that the user has been using their phone for more than 10 seconds without searching for something necessary, it sends small vibration alerts.
+
+This reminds the user to stop unnecessary scrolling.
